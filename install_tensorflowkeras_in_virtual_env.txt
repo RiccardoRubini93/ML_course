@@ -1,0 +1,16 @@
+sudo apt install python3-venv python3-dev
+mkdir my_tensorflow
+cd my_tensorflow
+python3 -m venv venv
+source venv/bin/activate
+pip3 install --upgrade pip
+pip3 install --upgrade TensorFlow
+python3 -c 'import TensorFlow as tf; print(tf.__version__)'
+
+install keras
+
+pip3 install ––upgrade setuptools
+pip3 show tensorflow
+pip list | grep tensorflow
+pip3 install keras
+pip3 show keras
